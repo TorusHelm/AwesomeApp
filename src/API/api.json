@@ -1,0 +1,68 @@
+[
+  {
+    "main": {
+      "plains": [
+        {
+          "name": "Vibrant Lily",
+          "price": 30,
+          "image": "/assets/plants/plant1.png",
+          "description": "Ullamcorper cras primis dignissim maecenas consectetur nam condimentum eros a justo a mollis curae justo pharetra nisl scelerisque a aliquet justo ipsum a ante lobortis sodales varius nibh scelerisque. Mus est nec condimentum hac scelerisque parturient sociosqu a lobortis a porttitor risus dis parturient aliquam vel suscipit vel mus.",
+          "days": "24",
+          "humidity": "82%",
+          "diameter": "4.2",
+          "type": "indoor plant"
+        },
+        {
+          "name": "Monstera",
+          "price": 20,
+          "image": "/assets/plants/plant2.png",
+          "description": "Ullamcorper cras primis dignissim maecenas consectetur nam condimentum eros a justo a mollis curae justo pharetra nisl scelerisque a aliquet justo ipsum a ante lobortis sodales varius nibh scelerisque. Mus est nec condimentum hac scelerisque parturient sociosqu a lobortis a porttitor risus dis parturient aliquam vel suscipit vel mus.",
+          "days": "23",
+          "humidity": "85%",
+          "diameter": "4.2",
+          "type": "indoor plant"
+        },
+        {
+          "name": "Calathea",
+          "price": 80,
+          "image": "/assets/plants/plant3.png",
+          "description": "Ullamcorper cras primis dignissim maecenas consectetur nam condimentum eros a justo a mollis curae justo pharetra nisl scelerisque a aliquet justo ipsum a ante lobortis sodales varius nibh scelerisque. Mus est nec condimentum hac scelerisque parturient sociosqu a lobortis a porttitor risus dis parturient aliquam vel suscipit vel mus.",
+          "days": "22",
+          "humidity": "78%",
+          "diameter": "3.5",
+          "type": "outdoor plant"
+        },
+        {
+          "name": "Barrenwort",
+          "price": 56,
+          "image": "/assets/plants/plant4.png",
+          "description": "Ullamcorper cras primis dignissim maecenas consectetur nam condimentum eros a justo a mollis curae justo pharetra nisl scelerisque a aliquet justo ipsum a ante lobortis sodales varius nibh scelerisque. Mus est nec condimentum hac scelerisque parturient sociosqu a lobortis a porttitor risus dis parturient aliquam vel suscipit vel mus.",
+          "days": "25",
+          "humidity": "81%",
+          "diameter": "3.5",
+          "type": "outdoor plant"
+        },
+        {
+          "name": "Castor Bean",
+          "price": 36,
+          "image": "/assets/plants/plant5 .png",
+          "description": "Ullamcorper cras primis dignissim maecenas consectetur nam condimentum eros a justo a mollis curae justo pharetra nisl scelerisque a aliquet justo ipsum a ante lobortis sodales varius nibh scelerisque. Mus est nec condimentum hac scelerisque parturient sociosqu a lobortis a porttitor risus dis parturient aliquam vel suscipit vel mus.",
+          "days": "26",
+          "humidity": "76%",
+          "diameter": "4.2",
+          "type": "outdoor plant"
+        },
+        {
+          "name": "Bonsai",
+          "price": 36,
+          "image": "/assets/plants/plant5 .png",
+          "description": "Ullamcorper cras primis dignissim maecenas consectetur nam condimentum eros a justo a mollis curae justo pharetra nisl scelerisque a aliquet justo ipsum a ante lobortis sodales varius nibh scelerisque. Mus est nec condimentum hac scelerisque parturient sociosqu a lobortis a porttitor risus dis parturient aliquam vel suscipit vel mus.",
+          "days": "22",
+          "humidity": "84%",
+          "diameter": "5.4",
+          "type": "indoor plant"
+        }
+      ]
+    }
+  }
+]

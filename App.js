@@ -1,28 +1,32 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Header from './components/header';
+import React from 'react'
+import * as Font from 'expo-font';
+import { createAppContainer } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation-stack'
+import WelcomeScreen from './src/components/navigate/welcome'
+import ProfileScreen from './src/components/navigate/profile'
+import SignUp from './src/components/navigate/signUp'
+
+const MainNavigator = createStackNavigator(
+  {
+    Welcome: {screen: WelcomeScreen},
+    Profile: {screen: ProfileScreen},
+    SignUp: {screen: SignUp},
+  },
+  {
+    initialRouteName: 'Welcome',
+  }
+);
+
+const AppContainer = createAppContainer(MainNavigator);
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-    }
+  componentDidMount() {
+    Font.loadAsync({
+      'lexendDeca': require('./src/assets/fonts/lexendDeca-Regular.ttf'),
+    });
   }
 
   render () {
-    return (
-      <View style={styles.container}>
-        <Header />
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    );
+    return <AppContainer />
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    overflow: 'hidden',
-    position: 'relative',
-    zIndex: 1
-  }
-});
