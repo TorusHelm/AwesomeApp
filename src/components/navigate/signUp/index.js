@@ -69,7 +69,7 @@ export default class SignUp extends React.Component {
           </View>
           <TouchableOpacity 
             style={styles.btn}
-            onPress={() => navigate('Profile', {name: 'Jane'})}
+            onPress={() => navigate('Catalog')}
           >
             <Text style={styles.btnText}>Sign In</Text>
           </TouchableOpacity>

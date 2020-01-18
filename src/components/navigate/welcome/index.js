@@ -36,7 +36,7 @@ export default class WelcomeScreen extends React.Component {
           </View>
           <TouchableOpacity 
             style={styles.btn}
-            onPress={() => navigate('Profile')}
+            onPress={() => navigate('Catalog')}
           >
             <Text style={styles.btnText}>Sign In</Text>
           </TouchableOpacity>
