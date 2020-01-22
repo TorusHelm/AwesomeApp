@@ -31,6 +31,21 @@ const styles = StyleSheet.create({
   filstInput: {
     marginBottom: 22
   },
+  filstInputFlex: {
+    display: 'flex',
+    flexDirection: 'row'
+  },
+  filstInput1: {
+    flexBasis: '50%',
+    flexGrow: 1,
+    flexShrink: 1,
+    marginRight: 15
+  },
+  filstInput2: {
+    flexBasis: '50%',
+    flexGrow: 1,
+    flexShrink: 1
+  },
   secondInput: {
     marginBottom: 40
   },
